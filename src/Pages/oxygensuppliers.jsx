@@ -4,14 +4,13 @@ import Footer from "../components/Footer/Footer";
 import moment from "moment";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Domain } from "../Constants/Domain";
-
 const Oxygensuppliers = () => {
   const [loading, setLoading] = useState(false);
   const [oxygenData, setOxygenData] = useState([]);
 
   useEffect(() => {
     async function getOxygensuppliers() {
-      await fetch(Domain + "Oxygen", {
+      await fetch(Domain+ "Oxygen", {
         method: "GET",
       })
         .then((response) => response.json())

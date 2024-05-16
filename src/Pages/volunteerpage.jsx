@@ -22,7 +22,7 @@ const VolunteerPage = () => {
     };
 
     try {
-      await axios.post("http://localhost:5000/api/volunteer", data);
+      await axios.post(" https://swasthya-serivce-api.onrender.com/api/volunteer", data);
       alert("Thank you for volunteering!");
       setName("");
       setPhone("");

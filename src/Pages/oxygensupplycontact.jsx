@@ -23,7 +23,7 @@ const Oxygensupplycontact = () => {
       Alt_Phone: alt,
     };
     try {
-      const res = await axios.post("http://localhost:5000/api/Oxygen", Data);
+      const res = await axios.post(" https://swasthya-serivce-api.onrender.com/api/Oxygen", Data);
       console.log(res.data);
 
       // Show update alert

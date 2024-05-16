@@ -3,7 +3,6 @@ import { Domain } from "../Constants/Domain";
 import PageNavbar from "../components/Navbar/PageNavbar";
 import Footer from "../components/Footer/Footer";
 import moment from "moment";
-
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 const Hospitalbeds = () => {
   const [loading, setLoading] = useState(false);

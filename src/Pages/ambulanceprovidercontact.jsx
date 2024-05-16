@@ -24,7 +24,7 @@ const Ambulanceprovidercontact = () => {
     };
     try {
       // Send data to server
-      const res = await axios.post("http://localhost:5000/api/Ambulance", Data);
+      const res = await axios.post("https://swasthya-serivce-api.onrender.com/api/Ambulance", Data);
 
       // Log the response
       console.log(res.data);

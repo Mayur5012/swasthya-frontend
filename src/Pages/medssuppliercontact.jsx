@@ -23,7 +23,7 @@ const Medssuppliercontact = () => {
       Alt_Phone: alt,
     };
     try {
-      const res = await axios.post("http://localhost:5000/api/Meds", Data);
+      const res = await axios.post(" https://swasthya-serivce-api.onrender.com/api/Meds", Data);
       console.log(res.data);
 
       // Show update alert

@@ -29,7 +29,7 @@ const Plasmadonorcontact = () => {
       Alternate_phone: alt,
     };
     try {
-      const res = await axios.post("http://localhost:5000/api/plasma", Data);
+      const res = await axios.post(" https://swasthya-serivce-api.onrender.com/api/plasma", Data);
       console.log(res.data);
 
       // Show update alert

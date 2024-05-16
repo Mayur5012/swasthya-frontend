@@ -27,7 +27,7 @@ const Hospitalbedcontact = () => {
       Oxygen_Beds: oxygen,
     };
     try {
-      const res = await axios.post("http://localhost:5000/api/Hospital", Data);
+      const res = await axios.post("https://swasthya-serivce-api.onrender.com/api/Hospital", Data);
       console.log(res.data);
 
       // Show update alert

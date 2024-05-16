@@ -1,1 +1,1 @@
-export const Domain = "http://localhost:5000/api/"
+export const Domain = "https://swasthya-serivce-api.onrender.com/api/"
