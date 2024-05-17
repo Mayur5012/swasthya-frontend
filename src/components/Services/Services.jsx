@@ -39,8 +39,8 @@ const Services = () => {
           <div className="pred">
             <div id="left">
               <img
+                className="imgpred"
                 src={pred}
-                style={{ height: "300px", width: "600px" }}
                 alt="predimage"
               />
             </div>

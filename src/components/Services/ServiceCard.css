@@ -25,8 +25,16 @@
   border-color: rgb(58, 58, 221);
   background-color: rgb(58, 58, 221);
 }
+.imgpred{
+  height: 300px;
+  width: 600px;
+}
 
 @media (min-width: 320px) and (max-width: 1200px) {
+  .imgpred{
+    height: 184px;
+    width: 316px;
+  }
   .pred {
     flex-direction: column;
   }
